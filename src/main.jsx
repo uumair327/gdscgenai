@@ -5,8 +5,8 @@ import { Toaster } from 'sonner'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <Toaster richColors />
     <App />
-  </React.StrictMode>,
+  </>,
 )
